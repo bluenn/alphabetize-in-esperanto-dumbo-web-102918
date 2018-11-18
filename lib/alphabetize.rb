@@ -4,5 +4,5 @@ def alphabetize(arr)
   arr.sort_by do |x|
     order.index x[0]
   end
-  arr
+  arr  
 end
