@@ -5,6 +5,6 @@ def alphabetize(arr)
     #order.index(word[0])
     word.split('').map do |letter|
       order.index(letter)
+    end  
   end
-
 end
